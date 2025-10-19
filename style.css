@@ -36,3 +36,15 @@ h1{
     font-size: 5rem;
     margin: 30px 0;
 }
+
+.scoreDisplay{
+    font-size: 2rem;
+}
+
+.winText, #playerScoreDisplay{
+    color: hsl(120, 100%, 45%);
+}
+
+.loseText, #computerScoreDisplay{
+    color: hsl(0, 100%, 45%)
+}
